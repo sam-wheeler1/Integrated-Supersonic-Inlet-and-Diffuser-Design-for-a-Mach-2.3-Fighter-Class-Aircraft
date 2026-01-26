@@ -1,0 +1,2 @@
+# Integrated-Supersonic-Inlet-and-Diffuser-Design-for-a-Mach-2.3-Fighter-Class-Aircraft
+Designed and analyzed an integrated external-compression supersonic inlet and diffuser for a Mach 2.3 fighter-class aircraft operating at cruise altitude. Performed oblique and normal shock calculations, CAD design, and CFD validation to evaluate shock structure, Mach number distribution, and total pressure recovery.
