@@ -47,7 +47,7 @@ Shock angle and post-shock properties were computed using oblique shock relation
 
 The 2D inlet profile geometry was defined directly from oblique shock analysis. Ramp angles and throat location were selected to achieve controlled compression prior to the terminal normal shock.
 
-[CAD 2D Screenshot](Results/Cad_2D_screenshot.png)
+[CAD 2D Screenshot](CAD/Cad_2D_screenshot.png)
 
 ---
 
