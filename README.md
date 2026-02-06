@@ -30,7 +30,7 @@ Shock angle and post-shock properties were computed using oblique shock relation
 
 ![MATLAB Code Screenshot](Results/MATLAB_screenshot.png)
 
-## Table 1. Analytical Derived Inlet Performance Metrics at Mach 2.3
+## Table 1: Analytical Derived Inlet Performance Metrics at Mach 2.3
 
 | Quantity | Value |
 |--------|-------|
@@ -81,7 +81,7 @@ Total pressure recovery was evaluated using a mass-weighted average on an intern
 
 ---
 
-## Table 2. Comparison of Analytical and CFD-Predicted Performance Metrics at Mach 2.3
+## Table 2: Comparison of Analytical and CFD-Predicted Performance Metrics at Mach 2.3
 
 | Quantity | Calculated Value | Simulated Value |
 |--------|-----------------|----------------|
@@ -106,7 +106,7 @@ Overall, the results demonstrate effective staged compression and acceptable tot
 
 To evaluate robustness outside the design point, the inlet was assessed at additional freestream Mach numbers.
 
-## Table 3. Off-Design Total Pressure Recovery
+## Table 3: Off-Design Total Pressure Recovery
 
 | Freestream Mach | Total Pressure Recovery |
 |---:|---:|
