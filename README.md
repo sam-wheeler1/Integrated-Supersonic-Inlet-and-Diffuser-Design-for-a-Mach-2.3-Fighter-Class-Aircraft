@@ -1,6 +1,6 @@
 # Integrated Supersonic Inlet and Diffuser Design for a Mach 2.3 Fighter-Class Aircraft
 
-**January 2026**
+**January 2026** 
 
 ---
 
