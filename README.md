@@ -18,7 +18,7 @@ Inlet performance was quantified primarily through **total pressure recovery at 
 
 ## Tools Used
 
-- **MATLAB** (compressible flow and shock calculations)
+- **MATLAB** (Compressible flow and shock calculations)
 - **Fusion 360** (2D inlet geometry)
 - **ANSYS Fluent** (CFD validation)
 
