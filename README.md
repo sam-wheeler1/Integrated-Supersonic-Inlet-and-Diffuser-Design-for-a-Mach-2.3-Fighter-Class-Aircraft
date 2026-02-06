@@ -28,8 +28,8 @@ Inlet performance was quantified primarily through **total pressure recovery at 
 
 Shock angle and post-shock properties were computed using oblique shock relations and solved numerically in MATLAB using root-finding methods. These calculations were used to determine ramp deflection angles, oblique shock angles, and expected post-shock flow behavior.
 
----
-[MATLAB_code](C:\Users\samwh\Downloads\Inlet_Project\Screenshot 2026-01-27 203239.png)
+[MATLAB Code Screenshot](docs/images/Screenshot_2026-01-27_203239.png)
+
 ## Table 1. Analytical Derived Inlet Performance Metrics at Mach 2.3
 
 | Quantity | Value |
@@ -41,14 +41,14 @@ Shock angle and post-shock properties were computed using oblique shock relation
 | Ramp 2 Shock Angle | 35.54° |
 | Total Pressure Recovery (Idealized) | 0.8147 |
 
-
 ---
 
 ## CAD – Inlet Geometry
 
 The 2D inlet profile geometry was defined directly from oblique shock analysis. Ramp angles and throat location were selected to achieve controlled compression prior to the terminal normal shock.
 
-[CAD_2D](C:\Users\samwh\Downloads\Inlet_Project\Cad_2D_screenshot.png)
+[CAD 2D Screenshot](docs/images/Cad_2D_screenshot.png)
+
 ---
 
 ## CFD – Flow Validation and Visualization
@@ -65,17 +65,17 @@ Total pressure recovery was evaluated using a mass-weighted average on an intern
 ## Figures
 
 ### Figure 1
-![Mach Number Contour](C:\Users\samwh\Downloads\Inlet_Project\Integrated-Supersonic-Inlet-and-Diffuser-Design-for-a-Mach-2.3-Fighter-Class-Aircraft\Results\MachContourIntake.png)
+![Mach Number Contour](Results/MachContourIntake.png)
 
 *Mach number contour at Mach 2.3, showing staged external compression via oblique shocks followed by internal compression into a subsonic throat.*
 
 ### Figure 2
-![Centerline Mach Distribution](C:\Users\samwh\Downloads\Inlet_Project\Integrated-Supersonic-Inlet-and-Diffuser-Design-for-a-Mach-2.3-Fighter-Class-Aircraft\Results\Centerline_Mach_vs_X.png)
+![Centerline Mach Distribution](Results/Centerline_Mach_vs_X.png)
 
 *Centerline Mach number distribution along the inlet length, showing staged deceleration from freestream Mach number through external and internal compression.*
 
 ### Figure 3
-![Total Pressure at Engine Face](C:\Users\samwh\Downloads\Inlet_Project\Integrated-Supersonic-Inlet-and-Diffuser-Design-for-a-Mach-2.3-Fighter-Class-Aircraft\Results\Centerline_Total_Pressure_vs_X.png)
+![Total Pressure at Engine Face](Results/Centerline_Total_Pressure_vs_X.png)
 
 *Mass-weighted total pressure evaluated at an internal engine-face cross-section downstream of the shock system.*
 
@@ -102,6 +102,6 @@ Overall, the results demonstrate effective staged compression and acceptable tot
 
 ---
 
-## Design Takeaway
+## Off-Design Analysis
 
-This project highlighted the importance of evaluating performance metrics at physically meaningful locations. Early attempts to quantify data at incorrect locations led to misleading results, emphasizing the necessity of using an **engine-face-based measurement plane** for accurate supersonic inlet analysis.
+To evaluate robustness outs
