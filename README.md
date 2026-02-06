@@ -28,7 +28,7 @@ Inlet performance was quantified primarily through **total pressure recovery at 
 
 Shock angle and post-shock properties were computed using oblique shock relations and solved numerically in MATLAB using root-finding methods. These calculations were used to determine ramp deflection angles, oblique shock angles, and expected post-shock flow behavior.
 
-[MATLAB Code Screenshot](docs/images/Screenshot_2026-01-27_203239.png)
+[MATLAB Code Screenshot](Results/MATLAB_screenshot.png)
 
 ## Table 1. Analytical Derived Inlet Performance Metrics at Mach 2.3
 
@@ -47,7 +47,7 @@ Shock angle and post-shock properties were computed using oblique shock relation
 
 The 2D inlet profile geometry was defined directly from oblique shock analysis. Ramp angles and throat location were selected to achieve controlled compression prior to the terminal normal shock.
 
-[CAD 2D Screenshot](docs/images/Cad_2D_screenshot.png)
+[CAD 2D Screenshot](Results/Cad_2D_screenshot.png)
 
 ---
 
