@@ -104,4 +104,48 @@ Overall, the results demonstrate effective staged compression and acceptable tot
 
 ## Off-Design Analysis
 
-To evaluate robustness outs
+To evaluate robustness outside the design point, the inlet was assessed at additional freestream Mach numbers.
+
+## Table 3. Off-Design Total Pressure Recovery
+
+| Freestream Mach | Total Pressure Recovery |
+|---:|---:|
+| 2.0 | 0.89 |
+| 2.3 | 0.90 |
+| 2.6 | 0.93 |
+
+### Off-Design Comparison Figure
+![Off-Design Centerline Mach Comparison](Results/OffDesign_Centerline_Mach_Comparison.png)
+
+*Centerline Mach number comparison across off-design conditions (M = 2.0, 2.3, 2.6), showing the shock-system shift and maintained inlet compression behavior.*
+
+---
+
+## Design Takeaway
+
+This project highlighted the importance of evaluating performance metrics at physically meaningful locations. Early attempts to quantify data at incorrect locations led to misleading results, emphasizing the necessity of using an **engine-face-based measurement plane** for accurate supersonic inlet analysis.
+
+---
+
+## Repository Structure
+
+```text
+.
+├─ README.md
+├─ Project_Summary.pdf
+├─ Results/
+│  ├─ MachContourIntake.png
+│  ├─ Centerline_Mach_vs_X.png
+│  ├─ Centerline_Total_Pressure_vs_X.png
+│  └─ OffDesign_Centerline_Mach_Comparison.png
+├─ docs/
+│  └─ images/
+│     ├─ Screenshot_2026-01-27_203239.png
+│     └─ Cad_2D_screenshot.png
+├─ matlab/
+│  └─ shock_calculations.m
+├─ cad/
+│  └─ inlet_geometry.f3d
+└─ cfd/
+   ├─ case/
+   └─ postprocessing/
