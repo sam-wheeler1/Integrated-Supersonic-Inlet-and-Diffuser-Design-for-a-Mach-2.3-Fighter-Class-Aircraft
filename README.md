@@ -28,7 +28,7 @@ Inlet performance was quantified primarily through **total pressure recovery at 
 
 Shock angle and post-shock properties were computed using oblique shock relations and solved numerically in MATLAB using root-finding methods. These calculations were used to determine ramp deflection angles, oblique shock angles, and expected post-shock flow behavior.
 
-[MATLAB Code Screenshot](Results/MATLAB_screenshot.png)
+![MATLAB Code Screenshot](Results/MATLAB_screenshot.png)
 
 ## Table 1. Analytical Derived Inlet Performance Metrics at Mach 2.3
 
@@ -47,7 +47,7 @@ Shock angle and post-shock properties were computed using oblique shock relation
 
 The 2D inlet profile geometry was defined directly from oblique shock analysis. Ramp angles and throat location were selected to achieve controlled compression prior to the terminal normal shock.
 
-[CAD 2D Screenshot](CAD/Cad_2D_screenshot.png)
+![CAD 2D Screenshot](CAD/Cad_2D_screenshot.png)
 
 ---
 
@@ -115,7 +115,7 @@ To evaluate robustness outside the design point, the inlet was assessed at addit
 | 2.6 | 0.93 |
 
 ### Off-Design Comparison Figure
-![Off-Design Centerline Mach Comparison](Results/OffDesign_Centerline_Mach_Comparison.png)
+![Off-Design Centerline Mach Comparison](Results/Off_Design_Comparison_SS.png)
 
 *Centerline Mach number comparison across off-design conditions (M = 2.0, 2.3, 2.6), showing the shock-system shift and maintained inlet compression behavior.*
 
@@ -127,25 +127,3 @@ This project highlighted the importance of evaluating performance metrics at phy
 
 ---
 
-## Repository Structure
-
-```text
-.
-├─ README.md
-├─ Project_Summary.pdf
-├─ Results/
-│  ├─ MachContourIntake.png
-│  ├─ Centerline_Mach_vs_X.png
-│  ├─ Centerline_Total_Pressure_vs_X.png
-│  └─ OffDesign_Centerline_Mach_Comparison.png
-├─ docs/
-│  └─ images/
-│     ├─ Screenshot_2026-01-27_203239.png
-│     └─ Cad_2D_screenshot.png
-├─ matlab/
-│  └─ shock_calculations.m
-├─ cad/
-│  └─ inlet_geometry.f3d
-└─ cfd/
-   ├─ case/
-   └─ postprocessing/ 
