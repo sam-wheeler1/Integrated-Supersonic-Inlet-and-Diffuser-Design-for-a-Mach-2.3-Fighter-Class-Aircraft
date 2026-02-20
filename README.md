@@ -123,7 +123,7 @@ To evaluate robustness outside the design point, the inlet was assessed at addit
 
 ## Design Takeaway
 
-This project highlighted the importance of evaluating performance metrics at physically meaningful locations. Early attempts to quantify data at incorrect locations led to misleading results, emphasizing the necessity of using an **engine-face-based measurement plane** for accurate supersonic inlet analysis.
+This project highlighted the importance of evaluating performance metrics at physically meaningful locations. Early attempts to quantify data at incorrect locations led to misleading results, emphasizing the necessity of using an engine-face-based measurement plane for accurate supersonic inlet analysis.
 
 ---
 
